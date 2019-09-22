@@ -32,9 +32,8 @@ Link here:
 
 ### Hangfire
 Description here:\
-Link here:
+Link here:\
 
-<br/>
 ## Software
 ### ReSharper
 Description here:\
@@ -47,6 +46,3 @@ Link here:
 ### Tortoise Git
 Description here:\
 Link here:
-
-
-
