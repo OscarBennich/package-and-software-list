@@ -1,5 +1,5 @@
 # List of Packages and Software (for .NET)
-A list of packages and software that I want to remember.
+This is a list of packages and software that I want to remember, so I'm collecting information about them here.
 
 ## Nuget Packages / Libraries
 ### SignalR
@@ -35,7 +35,6 @@ Description here:\
 Link here:
 
 
-\
 ## Software
 ### ReSharper
 Description here:\
