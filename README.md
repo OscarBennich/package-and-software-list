@@ -32,7 +32,7 @@ Link here:
 
 ### Hangfire
 Description here:\
-Link here:\
+Link here:
 
 ## Software
 ### ReSharper
