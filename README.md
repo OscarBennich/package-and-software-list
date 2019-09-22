@@ -1,5 +1,7 @@
-# List of Packages and Software 
+# List of Packages and Software
+A list of packages and software that I want to remember.
 
 ## Nuget Packages / Libraries
+### SignalR
 
 ## Software
