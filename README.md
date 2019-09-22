@@ -3,7 +3,7 @@ A list of packages and software that I want to remember.
 
 ## Nuget Packages / Libraries
 ### SignalR
-Description here:
+Description here:\
 Link here:
 
 
