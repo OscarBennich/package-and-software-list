@@ -34,8 +34,8 @@ Link here:
 Description here:\
 Link here:
 
-
-\## Software
+<br/>
+## Software
 ### ReSharper
 Description here:\
 Link here:
