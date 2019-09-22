@@ -1,2 +1,5 @@
-# package-and-software-list
-A list of packages and software that I want to remember
+# List of Packages and Software 
+
+## Nuget Packages / Libraries
+
+## Software
