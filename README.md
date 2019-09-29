@@ -3,7 +3,7 @@ This is a list of packages and software that I want to remember, so I'm collecti
 
 ## Nuget Packages / Libraries
 ### SignalR
-Description: Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client.
+Description: Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client.\
 Link: https://github.com/SignalR/SignalR
 
 ### FluentValidation
