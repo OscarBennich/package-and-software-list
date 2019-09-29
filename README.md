@@ -7,36 +7,36 @@ Description: Web-socket implementation for .NET core. Enables real-time informat
 Link: https://github.com/SignalR/SignalR
 
 ### FluentValidation
-Description here:\
-Link here:
+Description:\
+Link: https://github.com/JeremySkinner/FluentValidation
 
 ### FluentAssertions
-Description here:\
-Link here:
+Description:\
+Link: https://github.com/fluentassertions/fluentassertions
 
 ### Serilog
-Description here:\
-Link here:
+Description:\
+Link: https://github.com/serilog/serilog
 
 ### AutoMapper
-Description here:\
-Link here:
+Description:\
+Link: https://github.com/AutoMapper/AutoMapper
 
 ### MediatR
-Description here:\
-Link here:
+Description: Mediator pattern implementation for .NET.\
+Link: https://github.com/jbogard/MediatR
 
 ### RawRabbit
-Description here:\
-Link here:
+Description: RabbitMQ implementation for .NET.\
+Link: https://github.com/pardahlman/RawRabbit
 
 ### Hangfire
-Description here:\
-Link here:
+Description: An easy way to perform background jobs and schedule future jobs in .NET\ 
+Link: https://github.com/HangfireIO/Hangfire
 
 ### Swagger
-Description here:\
-Link here:
+Description: Automatic and easy way for API self-documentation.\
+Link: https://swagger.io/
 
 ### IdentityServer4
 Description here:\
