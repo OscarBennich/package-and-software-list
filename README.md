@@ -3,8 +3,8 @@ This is a list of packages and software that I want to remember, so I'm collecti
 
 ## Nuget Packages / Libraries
 ### SignalR
-Description here:\
-Link here:
+Description:\
+Link:
 
 ### FluentValidation
 Description here:\
@@ -31,6 +31,14 @@ Description here:\
 Link here:
 
 ### Hangfire
+Description here:\
+Link here:
+
+### Swagger
+Description here:\
+Link here:
+
+### IdentityServer4
 Description here:\
 Link here:
 
