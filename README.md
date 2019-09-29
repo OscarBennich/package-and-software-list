@@ -44,7 +44,7 @@ Link: https://github.com/IdentityServer/IdentityServer4
 
 ## Software
 ### ReSharper
-Description: Visual Studio extension
+Description: Visual Studio extension\
 Link: https://www.jetbrains.com/resharper/
 
 ### SQL Server Management Studio
