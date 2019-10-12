@@ -42,6 +42,14 @@ Link: https://swagger.io/
 Description: OpenID Connect and OAuth 2.0 Framework for ASP.NET Core\
 Link: https://github.com/IdentityServer/IdentityServer4
 
+### IdentityModel
+Description: \
+Link:
+
+### Flurl
+Description: \
+Link:
+
 ## Software
 ### ReSharper
 Description: Visual Studio extension\
@@ -58,3 +66,7 @@ Link: https://tortoisegit.org/download/
 ### BeyondCompare
 Description: Makes comparing files easy, good for commits and especially merge conflicts\
 Link: https://www.scootersoftware.com/
+
+### Postman
+Description:\
+Link:
