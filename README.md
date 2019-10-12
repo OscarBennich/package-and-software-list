@@ -14,6 +14,7 @@ A small validation library that uses a fluent interface and lambda expressions f
 RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");
 ```
 This is great for validating input for APIs and more.
+\
 
 ### FluentAssertions
 https://github.com/fluentassertions/fluentassertions \
