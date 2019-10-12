@@ -7,6 +7,7 @@ https://github.com/SignalR/SignalR \
 Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client.
 
 
+<p>
 ### FluentValidation
 https://github.com/JeremySkinner/FluentValidation \
 A small validation library that uses a fluent interface and lambda expressions for building validation rule.
@@ -14,14 +15,7 @@ A small validation library that uses a fluent interface and lambda expressions f
 RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");
 ```
 This is great for validating input for APIs and more.
-
-
-
-
-
-
-
-
+</p>
 
 ### FluentAssertions
 https://github.com/fluentassertions/fluentassertions \
