@@ -16,14 +16,14 @@ RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");
 This is great for validating input for APIs and more.
 
 ### FluentAssertions
-https://github.com/fluentassertions/fluentassertions \
+https://github.com/fluentassertions/fluentassertions \ 
 Description: Allows you to write things like this in unit tests:
 ```csharp
 accountNumber.Should().Be("0987654321")
 ```
 
 ### Serilog
-https://github.com/serilog/serilog \
+https://github.com/serilog/serilog \ 
 Serilog is a diagnostic logging library for .NET applications.
 ```csharp
 _logger.Error("Something went wrong", caught);
