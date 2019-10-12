@@ -4,11 +4,11 @@ This is a list of packages and software that I want to keep track of, so I'm col
 ## Nuget Packages / Libraries
 ### SignalR
 https://github.com/SignalR/SignalR \
-Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client
+Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client.
 
 
 ### FluentValidation
-https://github.com/JeremySkinner/FluentValidation   A small validation library that uses a fluent interface and lambda expressions for building validation rule. Example:
+https://github.com/JeremySkinner/FluentValidation   A small validation library that uses a fluent interface and lambda expressions for building validation rule.
 ```csharp
 RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");
 ```
@@ -16,7 +16,7 @@ This is great for validating input for APIs and more.
 
 ### FluentAssertions
 https://github.com/fluentassertions/fluentassertions \
-Description: Allows you to write things like this in unit tests: 
+Description: Allows you to write things like this in unit tests:
 ```csharp
 accountNumber.Should().Be("0987654321")
 ```
@@ -29,8 +29,16 @@ _logger.Error("Something went wrong", caught);
 ```
 
 ### AutoMapper
-Description: - \
-Link: https://github.com/AutoMapper/AutoMapper
+https://github.com/AutoMapper/AutoMapper \ 
+AutoMapper is a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another.
+```csharp
+var configuration = new MapperConfiguration(cfg => 
+{
+    cfg.CreateMap<Foo, FooDto>();
+});
+
+var fooDto = mapper.Map<FooDto>(foo);
+```
 
 ### MediatR
 Description: Mediator pattern implementation for .NET\
