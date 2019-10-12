@@ -3,17 +3,17 @@ This is a list of packages and software that I want to keep track of, so I'm col
 
 ## Nuget Packages / Libraries
 ### SignalR
-https://github.com/SignalR/SignalR \
-Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client
+  https://github.com/SignalR/SignalR \
+  Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client
 
 
 ### FluentValidation
-https://github.com/JeremySkinner/FluentValidation \
-A small validation library that uses a fluent interface and lambda expressions for building validation rule. Example:
-```csharp
-RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");
+  https://github.com/JeremySkinner/FluentValidation \
+  A small validation library that uses a fluent interface and lambda expressions for building validation rule. Example:
+ ```csharp
+  RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");
 ```
-This is great for validating input for APIs and more.
+  This is great for validating input for APIs and more.
 
 ### FluentAssertions
 https://github.com/fluentassertions/fluentassertions \
