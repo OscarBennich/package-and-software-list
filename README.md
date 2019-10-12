@@ -7,11 +7,15 @@ Description: Web-socket implementation for .NET core. Enables real-time informat
 Link: https://github.com/SignalR/SignalR
 
 ### FluentValidation
-Description: - \
+Description: A small validation library that uses a fluent interface and lambda expressions for building validation rule. Example: 
+`RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");`
+This is great for validating input for APIs and more.\
 Link: https://github.com/JeremySkinner/FluentValidation
 
 ### FluentAssertions
-Description: - \
+Description: Allows you to write things like this: 
+`accountNumber.Should().Be("0987654321")`
+in unit tests. \
 Link: https://github.com/fluentassertions/fluentassertions
 
 ### Serilog
