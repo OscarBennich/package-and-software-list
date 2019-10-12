@@ -3,7 +3,7 @@ This is a list of packages and software that I want to keep track of, so I'm col
 
 ## Nuget Packages / Libraries
 ### SignalR
-https://github.com/SignalR/SignalR
+https://github.com/SignalR/SignalR\
 Description: Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client
 
 ### FluentValidation
