@@ -17,9 +17,28 @@ This is great for validating input for APIs and more.
 
 ### FluentAssertions
 https://github.com/fluentassertions/fluentassertions \
-Description: Allows you to write things like this in unit tests:
+Allows you to write things like this in unit tests:
 ```csharp
 accountNumber.Should().Be("0987654321")
+```
+
+### NSubstitute
+https://github.com/nsubstitute/NSubstitute \
+A great mocking library for .NET.
+```csharp
+//Create:
+var calculator = Substitute.For<ICalculator>();
+
+//Set a return value:
+calculator.Add(1, 2).Returns(3);
+Assert.AreEqual(3, calculator.Add(1, 2));
+
+//Check received calls:
+calculator.Received().Add(1, Arg.Any<int>());
+calculator.DidNotReceive().Add(2, 2);
+
+//Raise events
+calculator.PoweringUp += Raise.Event();
 ```
 
 ### Serilog
