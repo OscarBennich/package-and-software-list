@@ -42,12 +42,21 @@ var fooDto = mapper.Map<FooDto>(foo);
 ```
 
 ### MediatR
-Description: Mediator pattern implementation for .NET\
-Link: https://github.com/jbogard/MediatR
+https://github.com/jbogard/MediatR \
+Mediator pattern implementation for .NET
 
 ### RawRabbit
-Description: RabbitMQ implementation for .NET\
-Link: https://github.com/pardahlman/RawRabbit
+https://github.com/pardahlman/RawRabbit \
+RabbitMQ implementation for .NET
+```csharp
+var client = RawRabbitFactory.CreateSingleton();
+await client.SubscribeAsync<BasicMessage>(async msg =>
+{
+  Console.WriteLine($"Received: {msg.Prop}.");
+});
+
+await client.PublishAsync(new BasicMessage { Prop = "Hello, world!"});
+```
 
 ### Hangfire
 Description: An easy way to perform background jobs and schedule future jobs in .NET\ 
