@@ -59,43 +59,76 @@ await client.PublishAsync(new BasicMessage { Prop = "Hello, world!"});
 ```
 
 ### Hangfire
-https://github.com/HangfireIO/Hangfire
-An easy way to perform background jobs and schedule future jobs in .NET\ 
-
+https://github.com/HangfireIO/Hangfire \
+An easy way to perform background jobs and schedule future jobs in .NET.
+```csharp
+BackgroundJob.Schedule(() => Console.WriteLine("Reliable!"), TimeSpan.FromDays(7));
+```
 
 ### Swagger
-Description: Automatic and easy way for API self-documentation\
-Link: https://swagger.io/
+https://swagger.io/ \
+Automatic and easy way for API self-documentation (and more).
+
+### Swashbuckle
+https://github.com/domaindrivendev/Swashbuckle \
+Seamlessly adds a Swagger to WebApi projects in .NET.
+
+```csharp
+httpConfiguration
+     .EnableSwagger(c => c.SingleApiVersion("v1", "A title for your API"))
+     .EnableSwaggerUi();
+```
 
 ### IdentityServer4
-Description: OpenID Connect and OAuth 2.0 Framework for ASP.NET Core\
-Link: https://github.com/IdentityServer/IdentityServer4
+https://github.com/IdentityServer/IdentityServer4 \
+OpenID Connect and OAuth 2.0 Framework for ASP.NET Core.
 
 ### IdentityModel
-Description: \
-Link:
+https://github.com/IdentityModel/IdentityModel \
+IdentityModel contains client libraries for many interactions with endpoints defined in OpenID Connect and OAuth 2.0
+```csharp
+var request = new ClientCredentialsTokenRequest
+{
+    Address = "https://demo.identityserver.io/connect/token",
+    ClientId = "client",
+    ClientSecret = "secret"
+});
+```
 
 ### Flurl
-Description: \
-Link:
+https://github.com/tmenier/Flurl \
+Flurl is a modern, fluent, asynchronous, testable, portable, buzzword-laden URL builder and HTTP client library for .NET.
+```csharp
+// fake & record all http calls in the test subject
+using (var httpTest = new HttpTest()) {
+    // arrange
+    httpTest.RespondWith(200, "OK");
+    // act
+    await sut.CreatePersonAsync();
+    // assert
+    httpTest.ShouldHaveCalled("https://api.com/*")
+        .WithVerb(HttpMethod.Post)
+        .WithContentType("application/json");
+}
+```
 
 ## Software
 ### ReSharper
-Description: Visual Studio extension\
-Link: https://www.jetbrains.com/resharper/
+https://www.jetbrains.com/resharper \
+Visual Studio extension. Makes life easier.
 
 ### SQL Server Management Studio
-Description: - \
-Link: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017 \
+Client used for viewing and manipulating SQL databases.
 
 ### TortoiseGit
-Description: TortoiseGit is a Windows Shell Interface to Git and based on TortoiseSVN\
-Link: https://tortoisegit.org/download/
+https://tortoisegit.org/download \
+TortoiseGit is a Windows Shell Interface to Git and based on TortoiseSVN.
 
 ### BeyondCompare
-Description: Makes comparing files easy, good for commits and especially merge conflicts\
-Link: https://www.scootersoftware.com/
+https://www.scootersoftware.com/ \
+Makes comparing files easy, good for commits and especially merge conflicts.
 
 ### Postman
-Description:\
-Link:
+https://www.getpostman.com/ \
+Easy way to set up, make, test, and distribute API calls.
