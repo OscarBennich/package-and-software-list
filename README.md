@@ -1,10 +1,10 @@
-# List of Packages and Software (for .NET)
+# List of Packages and Software for .NET development
 This is a list of packages and software that I want to keep track of, so I'm collecting information about them here.
 
 ## Nuget Packages / Libraries
 ### SignalR
 https://github.com/SignalR/SignalR \
-Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client
+Web-socket implementation for .NET core. Enables real-time information to be pushed from the server to the client\
 
 ### FluentValidation
 https://github.com/JeremySkinner/FluentValidation \
