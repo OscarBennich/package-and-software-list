@@ -43,11 +43,11 @@ var fooDto = mapper.Map<FooDto>(foo);
 
 ### MediatR
 https://github.com/jbogard/MediatR \
-Mediator pattern implementation for .NET
+Mediator pattern implementation for .NET.
 
 ### RawRabbit
 https://github.com/pardahlman/RawRabbit \
-RabbitMQ implementation for .NET
+RabbitMQ implementation for .NET.
 ```csharp
 var client = RawRabbitFactory.CreateSingleton();
 await client.SubscribeAsync<BasicMessage>(async msg =>
@@ -59,8 +59,9 @@ await client.PublishAsync(new BasicMessage { Prop = "Hello, world!"});
 ```
 
 ### Hangfire
-Description: An easy way to perform background jobs and schedule future jobs in .NET\ 
-Link: https://github.com/HangfireIO/Hangfire
+https://github.com/HangfireIO/Hangfire
+An easy way to perform background jobs and schedule future jobs in .NET\ 
+
 
 ### Swagger
 Description: Automatic and easy way for API self-documentation\
