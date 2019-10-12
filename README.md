@@ -46,12 +46,16 @@ calculator.DidNotReceive().Add(2, 2);
 calculator.PoweringUp += Raise.Event();
 ```
 
+<br/>
+
 ### Serilog
 https://github.com/serilog/serilog \
 Serilog is a diagnostic logging library for .NET applications.
 ```csharp
 _logger.Error("Something went wrong", caught);
 ```
+
+<br/>
 
 ### AutoMapper
 https://github.com/AutoMapper/AutoMapper \
@@ -65,9 +69,13 @@ var configuration = new MapperConfiguration(cfg =>
 var fooDto = mapper.Map<FooDto>(foo);
 ```
 
+<br/>
+
 ### MediatR
 https://github.com/jbogard/MediatR \
 Mediator pattern implementation for .NET.
+
+<br/>
 
 ### RawRabbit
 https://github.com/pardahlman/RawRabbit \
@@ -82,6 +90,8 @@ await client.SubscribeAsync<BasicMessage>(async msg =>
 await client.PublishAsync(new BasicMessage { Prop = "Hello, world!"});
 ```
 
+<br/>
+
 ### Hangfire
 https://github.com/HangfireIO/Hangfire \
 An easy way to perform background jobs and schedule future jobs in .NET.
@@ -89,9 +99,13 @@ An easy way to perform background jobs and schedule future jobs in .NET.
 BackgroundJob.Schedule(() => Console.WriteLine("Reliable!"), TimeSpan.FromDays(7));
 ```
 
+<br/>
+
 ### Swagger
 https://swagger.io/ \
 Automatic and easy way for API self-documentation (and more).
+
+<br/>
 
 ### Swashbuckle
 https://github.com/domaindrivendev/Swashbuckle \
@@ -103,9 +117,13 @@ httpConfiguration
      .EnableSwaggerUi();
 ```
 
+<br/>
+
 ### IdentityServer4
 https://github.com/IdentityServer/IdentityServer4 \
 OpenID Connect and OAuth 2.0 Framework for ASP.NET Core.
+
+<br/>
 
 ### IdentityModel
 https://github.com/IdentityModel/IdentityModel \
@@ -118,6 +136,8 @@ var request = new ClientCredentialsTokenRequest
     ClientSecret = "secret"
 });
 ```
+
+<br/>
 
 ### Flurl
 https://github.com/tmenier/Flurl \
@@ -141,18 +161,28 @@ using (var httpTest = new HttpTest()) {
 https://www.jetbrains.com/resharper \
 Visual Studio extension. Makes life easier.
 
+<br/>
+
 ### SQL Server Management Studio
 https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017 \
 Client used for viewing and manipulating SQL databases.
+
+<br/>
 
 ### TortoiseGit
 https://tortoisegit.org/download \
 TortoiseGit is a Windows Shell Interface to Git and based on TortoiseSVN.
 
+<br/>
+
 ### BeyondCompare
 https://www.scootersoftware.com/ \
 Makes comparing files easy, good for commits and especially merge conflicts.
 
+<br/>
+
 ### Postman
 https://www.getpostman.com/ \
 Easy way to set up, make, test, and distribute API calls.
+
+<br/>
