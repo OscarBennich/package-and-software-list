@@ -188,3 +188,7 @@ https://www.getpostman.com/ \
 Easy way to set up, make, test, and distribute API calls.
 
 <br/>
+
+### Figma
+https://www.figma.com/ \
+Collaborative UI prototyping tool.
