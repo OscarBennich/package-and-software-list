@@ -8,7 +8,8 @@ Web-socket implementation for .NET core. Enables real-time information to be pus
 
 
 ### FluentValidation
-https://github.com/JeremySkinner/FluentValidation   A small validation library that uses a fluent interface and lambda expressions for building validation rule.
+https://github.com/JeremySkinner/FluentValidation \ 
+A small validation library that uses a fluent interface and lambda expressions for building validation rule.
 ```csharp
 RuleFor(x => x.Forename).NotEmpty().WithMessage("Please specify a first name");
 ```
