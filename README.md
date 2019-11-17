@@ -158,6 +158,45 @@ using (var httpTest = new HttpTest()) {
 
 <br/>
 
+### Newtonsoft
+https://github.com/JamesNK/Newtonsoft.Json \
+Json.NET is a popular high-performance JSON framework for .NET.
+
+<br/>
+
+###  Middleware
+https://github.com/khellang/Middleware \
+Various ASP.NET Core middleware. Mostly for use in APIs.
+
+<br/>
+
+###  Autofac
+https://github.com/autofac/Autofac \
+Autofac is an IoC container for Microsoft .NET. It manages the dependencies between classes so that applications stay easy to change as they grow in size and complexity. This is achieved by treating regular .NET classes as components.
+
+<br/>
+
+###  AutoFixture
+https://github.com/AutoFixture/AutoFixture \
+AutoFixture is an open source library for .NET designed to minimize the 'Arrange' phase of your unit tests in order to maximize maintainability.
+```csharp
+[Fact]
+public void IntroductoryTest()
+{
+    // Arrange
+    Fixture fixture = new Fixture();
+
+    int expectedNumber = fixture.Create<int>();
+    MyClass sut = fixture.Create<MyClass>();
+    // Act
+    int result = sut.Echo(expectedNumber);
+    // Assert
+    Assert.Equal(expectedNumber, result);
+}
+```
+
+<br/>
+
 ## Software
 ### ReSharper
 https://www.jetbrains.com/resharper \
@@ -186,3 +225,10 @@ Makes comparing files easy, good for commits and especially merge conflicts.
 ### Postman
 https://www.getpostman.com/ \
 Easy way to set up, make, test, and distribute API calls.
+
+<br/>
+
+
+### Docker Desktop
+https://www.docker.com/products/docker-desktop \
+Docker desktop client.
